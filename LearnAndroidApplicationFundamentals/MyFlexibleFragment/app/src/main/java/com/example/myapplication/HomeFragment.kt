@@ -33,7 +33,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
                     categoryFragment,
                     CategoryFragment::class.java.simpleName
                 )
-                addToBackStack(null)
+                addToBackStack(null) // Jika tidak ada akan langsung keluar aplikasi ketika menekan tombol "back" di device
                 commit()
             }
         }
