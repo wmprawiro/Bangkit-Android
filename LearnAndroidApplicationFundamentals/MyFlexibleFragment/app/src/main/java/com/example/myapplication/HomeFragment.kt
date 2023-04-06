@@ -21,6 +21,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
         super.onViewCreated(view, savedInstanceState)
         val btnCategory: Button = view.findViewById(R.id.btn_category)
         btnCategory.setOnClickListener(this)
+
     }
 
     override fun onClick(v: View) {
@@ -37,5 +38,6 @@ class HomeFragment : Fragment(), View.OnClickListener {
                 commit()
             }
         }
+
     }
 }
